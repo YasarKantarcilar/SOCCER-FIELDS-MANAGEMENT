@@ -1,0 +1,73 @@
+.Fieldinfo{
+    min-height: 100vh;
+    padding-top: 70px;
+}
+
+.Fieldinfo-container{
+    margin: 30px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: 2px solid #2E4F4F;
+    border-radius: 15px;
+}
+
+.Fieldinfo-img{
+    height: 348px;
+    width: 350px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.Fieldinfo-info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.Fieldinfo-button{
+    width: 150px;
+    height: 45px;
+    background-color: #2E4F4F;
+    transition: 0.3s;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.Fieldinfo-button:hover{
+    background-color: whitesmoke;
+    color: #2E4F4F;
+    cursor: pointer;
+}
+
+hr{
+    margin-right: 100px;
+}
+
+.Fieldinfo-reservation{
+    transition: 0.5s;
+    animation: fade-in 1000ms forwards;
+}
+
+@keyframes fade-in{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+@keyframes fade-out{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+    
+}

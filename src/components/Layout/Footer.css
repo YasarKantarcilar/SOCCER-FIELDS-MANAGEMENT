@@ -1,0 +1,161 @@
+.Footer {
+    height: 380px;
+    width: 100%;
+    background-color: #2C3333;
+
+}
+
+.Footer-info-container {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 25px;
+}
+
+.Footer-social-media {
+    height: 50px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer-icon {
+    color: whitesmoke;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.Footer-icon:hover {
+    color: gray;
+}
+
+.Footer-icons {
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Footer-social-paragraph {
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.Footer-mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+    gap: 0px;
+    width: 250px;
+}
+
+.Footer-header {
+    font-size: 25px;
+    color: #CBE4DE;
+
+}
+
+.Footer-fast-links>ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.Footer-fast-links>ul>li {
+    list-style: none;
+}
+
+.Footer-fast-links>ul>li>a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.Footer-fast-links>ul>li>a:hover {
+    color: gray;
+
+}
+
+.Footer-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.Footer-form > p {
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+.Footer-email-submit {
+    color: black;
+}
+
+.Footer-form-container {
+    display: flex;
+    gap: 5px;
+}
+
+.Footer-input {
+    width: 150px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: 0px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.Footer-input::placeholder {
+    padding-left: 10px;
+}
+
+.Footer-email-submit-button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.Footer-email-submit-button:hover {
+    background-color: greenyellow;
+    border-radius: 3px;
+}
+
+.Footer-form-label{
+    text-align: center;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 850px) {
+    .Footer-info-container{
+        flex-direction: column;
+        gap: 20px;
+        height: 550px;
+        text-align: center;
+        margin: 0;
+        justify-content: space-around;
+    }
+    .Footer{
+        height: 700px;
+    }
+    .Footer-social-media {
+        margin: 0;
+    }
+  }

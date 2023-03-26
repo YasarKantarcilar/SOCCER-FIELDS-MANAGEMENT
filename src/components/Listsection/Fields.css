@@ -1,0 +1,30 @@
+.Fields {
+    padding-top: 70px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Fields-header {
+    text-align: center;
+}
+
+.Fields-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 30px;
+    margin-top: 25px;
+}
+
+.Fields-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+li{
+    list-style: none;
+}

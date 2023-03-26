@@ -1,0 +1,80 @@
+.Hero {
+    background-color: #FEFBE9;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.Hero-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219, 222, 224);
+    width: 550px;
+    height: 110px;
+    border-radius: 20px;
+    gap: 5px;
+}
+
+.Hero-form>p {
+    font-size: 20px;
+    color: black;
+}
+
+.Hero-search-container {
+    height: 550px;
+    background-color: #CBE4DE;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: url("../../assets/HeroSection/Hero-pc-bg.jpg");
+}
+
+
+.Hero-input {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+.Hero-input>select {
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: 0px;
+    outline: none;
+    border-radius: 15px;
+    font-size: 15px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.input-container {
+    display: flex;
+    gap: 15px;
+}
+
+.Hero-form-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.5s;
+    border: 2px solid black;
+}
+
+.Hero-form-submit:hover {
+    background-color: greenyellow;
+    border-radius: 15px;
+}

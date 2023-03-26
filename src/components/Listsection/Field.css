@@ -1,0 +1,52 @@
+.Field{
+    width: 30vw;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F9F5EB;
+    border: 2px solid #2E4F4F;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.125) 0px 10px 28px, rgba(0, 0, 0, 0.2) 0px 10px 10px;
+}
+
+.Field-info{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Field-img{
+    
+    gap: 25px;
+    width: 35%;
+    height: 148px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+
+}
+
+.Field-button{
+    width: 120px;
+    height: 30px;
+    background-color: #2E4F4F;
+    color: #CBE4DE;
+    transition: 0.3s;
+    border: 2px solid #F9F5EB;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Field-button:hover{
+    color: #2E4F4F;
+    border: 2px solid #2E4F4F;
+    background-color: #F9F5EB;
+    cursor: pointer;
+
+}
