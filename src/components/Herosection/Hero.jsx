@@ -3,13 +3,10 @@ import "./Hero.css"
 import { useState, useContext, useEffect } from "react"
 import { Link } from 'react-router-dom'
 import { SearchContext } from '../../Contexts/SearchContext'
-import { getAuth } from 'firebase/auth'
 import cityData from "../../Contexts/CityDataContext.jsx"
 
 function Hero(props) {
   const { setSearch } = useContext(SearchContext);
-  const auth = getAuth()
-  console.log(auth.currentUser)
 
   const [city, setCity] = useState(0)
   const [district, setDistrict] = useState(0)

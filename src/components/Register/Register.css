@@ -16,7 +16,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 250px;
+    width: 400px;
     height: 350px;
     gap: 25px;
 }
@@ -28,7 +28,7 @@
 }
 
 input{
-    width: 200px;
+    width: 300px;
     height: 35px;
     border-radius: 5px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
